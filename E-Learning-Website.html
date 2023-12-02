@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:black;
+        }
+     .navBar{
+        width:99%;
+        height:90px;
+        margin-top: 10px;
+        display: flex;
+        position: absolute;
+        color:black;
+        background-color:white;
+     }
+     #name{
+        margin-top: 20px;
+        margin-left: 100px;
+        position: absolute;
+        
+     }
+     
+    .logoImg{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        margin-top: -23px;
+        margin-left: -5px;
+    }
+     #hom{
+         height: 20px;
+         margin-left: 740px;
+         margin-right: 40px;
+         margin-top: 30px;
+         color: rgb(243, 142, 9);
+                 
+        }
+        #hom:hover , #abt:hover, #cors:hover , #cont:hover ,#logn:hover , #sgn:hover{
+           border: 2px solid rgb(219, 147, 53);
+            color: rgb(219, 147, 53);
+        }
+     #abt{
+        height: 20px;
+        margin-top: 30px;
+     }
+     #cors{
+        height: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 30px;
+     }
+     #cont{
+        height: 20px;
+           margin-top: 30px;
+
+    }
+     #logn{
+        height: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 30px;   
+    }
+     #sgn{
+        height: 20px;
+        margin-top: 30px;
+    }
+    #b1{
+        margin-top: 25px;
+        margin-left: 25px;
+        height: 30px;
+        background-color:rgb(236, 154, 45);
+        border: 2px solid rgb(236, 154, 45);
+        border-radius: 8px;
+    }
+    #b1:hover{
+        width:120px;
+        background-color: rgb(197, 127, 35);
+    }
+    .landng{
+        margin-top: 115.4px;
+        position: absolute;
+        width: 99%;
+        height: 500px;
+
+    }
+    #descrip{
+        position: absolute;
+        margin-top: 250px;
+        margin-left: 180px;
+        color: aliceblue;
+    }
+    #des{position: absolute;
+        margin-top: 330px;
+        margin-left: 180px;
+        color: aliceblue;
+
+    }
+    #b2{
+        margin-top: 380px;
+        margin-left: 180px;
+        position: absolute;
+        height: 35px;
+        border: 2px solid black;
+        border-radius: 8px;
+        background-color:rgb(236, 154, 45);
+    }
+    #b2:hover{
+        width: 150px;
+        background-color: rgb(202, 138, 53);
+    }
+    .stationary{
+        position: absolute;
+        width: 480px;
+        height: 280px;
+        margin-top: 200px;
+        margin-left: 550px;
+    }
+     .about{
+        width: 99%;
+        height: 650px;
+        position: absolute;
+       // background-color: rgb(33, 79, 105);
+        margin-top: 650px;
+    } 
+    .bgAbt{
+        position: absolute;
+        width: 100%;
+        height: 650px;
+        //margin-top: 650px;
+    
+    }
+    .about>h1{
+        color: aliceblue;
+        margin-top: 100px;
+        margin-left: 80px;
+        position: absolute;
+    }
+    #labl{
+        position: absolute;
+        color: aliceblue;
+        margin-top: 150px;
+        margin-left: 80px;
+        line-height: 1.4;
+        font-size: 16.5px;
+        letter-spacing: 0.5px;
+    }
+    .about button{
+        position: absolute;
+        margin-top: 480px;
+        margin-left: 80px;
+        width: 110px;
+        height: 35px;
+        border: 2px solid rgb(54, 162, 201);
+        border-radius: 5px;
+        background-color: rgb(54, 162, 201);
+    }
+    .about button:hover{
+        width: 180px;
+        background-color: rgb(71, 145, 172);
+    }
+    .corse img{
+        position: absolute;
+        width: 99%;
+        height: 650px;
+        margin-top: 1350px;
+    }
+    #c1{
+        position: absolute;
+        width: 22%;
+        height: 300px;
+        background-color: white;
+        margin-top: 1370px;
+        margin-left: 50px;
+    }
+    #c1 :nth-child(1){
+        width: 100%;
+        height: 170px;
+        margin-top: 0px;
+        position: absolute;
+    }
+    #c1 :nth-child(2){
+        width: 70px;
+        height: 70px; 
+        margin-top: 150px;
+        margin-left: 10px;
+        position: absolute;
+     
+    }
+    #c1 :nth-child(3){
+        width: 15px;
+        height: 15px; 
+        margin-top: 178px;
+        margin-left: 110px;
+        position: absolute;
+    }
+    #c1 :nth-child(4){
+        width: 15px;
+        height: 15px; 
+        margin-top: 249px;
+        margin-left: 203px;
+        position: absolute;
+    }
+    #c1 a{
+        position: absolute;
+        margin-top: 200px;
+        color: black;
+        //background-color:red;
+        margin-left: 10px;
+        font-size:14px;
+        font-weight:bold;
+        line-height: 1.4;
+    }
+    #c1 :nth-child(6){
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        margin-top: 230px;
+        margin-left: 0px;
+    }
+    #c1 :nth-child(7){
+        position: absolute;
+        margin-top: 246px;
+        margin-left: 45px;
+        
+    }
+    #c1 :nth-child(8){
+        position: absolute;
+        margin-top: 275px;
+        margin-left: 17px;
+        font-size: 13px;
+        background-color: lightgrey;
+    }
+    #c1 :nth-child(9){
+        width: 25px;
+        height: 25px; 
+        margin-top: 268px;
+        margin-left: 220px;
+        position: absolute;
+    }
+    #c1 :nth-child(10){
+        margin-top: 272px;
+        margin-left: 250px;
+        position: absolute;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #c2{
+        position: absolute;
+        width: 22%;
+        height: 300px;
+        background-color: white;
+        margin-top: 1370px;
+        margin-left: 400px;
+    }
+    #c2 :nth-child(1){
+        width: 100%;
+        height: 170px;
+        margin-top: 0px;
+        position: absolute;
+    }
+    #c2 :nth-child(2){
+        width: 70px;
+        height: 70px; 
+        margin-top: 150px;
+        margin-left: 10px;
+        position: absolute;
+     
+    }
+    #c2 :nth-child(3){
+        width: 15px;
+        height: 15px; 
+        margin-top: 178px;
+        margin-left: 110px;
+        position: absolute;
+    }
+    #c2 :nth-child(4){
+        width: 15px;
+        height: 15px; 
+        margin-top: 249px;
+        margin-left: 218px;
+        position: absolute;
+    }
+    #c2 a{
+        position: absolute;
+        margin-top: 200px;
+        color: black;
+        //background-color:red;
+        margin-left: 10px;
+        font-size:14px;
+        font-weight:bold;
+        line-height: 1.4;
+    }
+    #c2 :nth-child(6){
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        margin-top: 230px;
+        margin-left: 0px;
+    }
+    #c2 :nth-child(7){
+        position: absolute;
+        margin-top: 246px;
+        margin-left: 45px;
+        
+    }
+    #c2 :nth-child(8){
+        position: absolute;
+        margin-top: 275px;
+        margin-left: 17px;
+        font-size: 13px;
+        background-color: lightgrey;
+    }
+    #c2 :nth-child(9){
+        width: 25px;
+        height: 25px; 
+        margin-top: 268px;
+        margin-left: 220px;
+        position: absolute;
+    }
+    #c2 :nth-child(10){
+        margin-top: 272px;
+        margin-left: 250px;
+        position: absolute;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #c3{
+        position: absolute;
+        width: 22%;
+        height: 300px;
+        background-color: white;
+        margin-top: 1685px;
+        margin-left: 50px;
+    }
+    #c3 :nth-child(1){
+        width: 100%;
+        height: 170px;
+        margin-top: 0px;
+        position: absolute;
+    }
+    #c3 :nth-child(2){
+        width: 70px;
+        height: 70px; 
+        margin-top: 150px;
+        margin-left: 10px;
+        position: absolute;
+     
+    }
+    #c3 :nth-child(3){
+        width: 15px;
+        height: 15px; 
+        margin-top: 178px;
+        margin-left: 110px;
+        position: absolute;
+    }
+    #c3 :nth-child(4){
+        width: 15px;
+        height: 15px; 
+        margin-top: 249px;
+        margin-left: 218px;
+        position: absolute;
+    }
+    #c3 a{
+        position: absolute;
+        margin-top: 200px;
+        color: black;
+        //background-color:red;
+        margin-left: 10px;
+        font-size:14px;
+        font-weight:bold;
+        line-height: 1.4;
+    }
+    #c3 :nth-child(6){
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        margin-top: 230px;
+        margin-left: 0px;
+    }
+    #c3 :nth-child(7){
+        position: absolute;
+        margin-top: 246px;
+        margin-left: 45px;
+        
+    }
+    #c3 :nth-child(8){
+        position: absolute;
+        margin-top: 275px;
+        margin-left: 17px;
+        font-size: 13px;
+        background-color: lightgrey;
+    }
+    #c3 :nth-child(9){
+        width: 25px;
+        height: 25px; 
+        margin-top: 268px;
+        margin-left: 220px;
+        position: absolute;
+    }
+    #c3 :nth-child(10){
+        margin-top: 272px;
+        margin-left: 250px;
+        position: absolute;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    
+    #c4{
+        position: absolute;
+        width: 22%;
+        height: 300px;
+        background-color: white;
+        margin-top: 1685px;
+        margin-left: 400px;
+    }
+    #c4 :nth-child(1){
+        width: 100%;
+        height: 170px;
+        margin-top: 0px;
+        position: absolute;
+    }
+    #c4 :nth-child(2){
+        width: 70px;
+        height: 70px; 
+        margin-top: 150px;
+        margin-left: 10px;
+        position: absolute;
+     
+    }
+    #c4 :nth-child(3){
+        width: 15px;
+        height: 15px; 
+        margin-top: 178px;
+        margin-left: 110px;
+        position: absolute;
+    }
+    #c4 :nth-child(4){
+        width: 15px;
+        height: 15px; 
+        margin-top: 257px;
+        margin-left: 220px;
+        position: absolute;
+    }
+    #c4 a{
+        position: absolute;
+        margin-top: 200px;
+        color: black;
+        //background-color:red;
+        margin-left: 10px;
+        font-size:14px;
+        font-weight:bold;
+        line-height: 1.4;
+    }
+    #c4 :nth-child(6){
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        margin-top: 240px;
+        margin-left: 0px;
+    }
+    #c4 :nth-child(7){
+        position: absolute;
+        margin-top: 256px;
+        margin-left: 45px;
+        
+    }
+    #c4 :nth-child(8){
+        position: absolute;
+        margin-top: 279px;
+        margin-left: 17px;
+        font-size: 13px;
+        background-color: lightgrey;
+    }
+    #c4 :nth-child(9){
+        width: 25px;
+        height: 25px; 
+        margin-top: 273px;
+        margin-left: 222px;
+        position: absolute;
+    }
+    #c4 :nth-child(10){
+        margin-top: 278px;
+        margin-left: 255px;
+        position: absolute;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .contactUs img{
+        width: 99%;
+        height: 550px;
+        position: absolute;
+        margin-top: 2040px;
+    }
+    .contactUs h1{
+        position: absolute;
+        margin-top: 2050px;
+        margin-left: 45%;
+            }
+    .contactUs :nth-child(3){
+        position: absolute;
+        margin-top: 2150px;
+        margin-left: 360px;
+        line-height:1.6; 
+        font-size:18px;
+        font-weight:bold;       
+    }
+    .contactUs a {
+       color: black;
+    }
+    .contactUs :nth-child(4){
+        position: absolute;
+        margin-top: 2420px;
+        margin-left: 360px;
+        line-height:1.6; 
+        font-size:18px;
+        font-weight:bold;       
+    }
+    .contactUs :nth-child(5){
+        position: absolute;
+        margin-top: 2285px;
+        margin-left: 360px;
+        line-height:1.6; 
+        font-size:18px;
+        font-weight:bold;       
+    }
+    #cht{
+        position: absolute;
+        width: 25%;
+        height: 360px;
+        background-color: white;
+        margin-top: 2100px;
+        margin-left: 930px;
+    }
+    #cht label{
+        margin-left: 35%;
+        margin-top:20px;
+        position: absolute;
+        font-size: 19px;
+        font-weight: bold;
+    }
+    #cht form :nth-child(1){
+        position: absolute;
+        margin-top: 70px;
+        margin-left: 25px;
+        width: 80%;    
+        font-size: 14px;
+        font-weight:100; 
+                }
+        #cht form :nth-child(2){
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 25px;
+        width: 80%;    
+        font-size: 14px;
+        font-weight:100; 
+        }
+        #cht form :nth-child(3){
+        position: absolute;
+        margin-top: 170px;
+        margin-left: 25px;
+        width: 80%;   
+        font-size: 14px;
+        font-weight:100; 
+        }
+        #cht form :nth-child(4){
+        position: absolute;
+        margin-top: 220px;
+        margin-left: 25px;
+        width: 80%;    
+        height: 70px;
+        font-size: 14px;
+        font-weight:100; 
+        }
+        
+        #cht form :nth-child(5){
+        position: absolute;
+        margin-top: 315px;
+        margin-left: 25px;
+        width: 83%;    
+         font-size: 14px;
+        font-weight:100; 
+        background-color:rgb(135, 202, 204);
+        border: 2px solid rgb(135, 202, 204);
+        border-radius: 5px;
+        }
+        #location{
+            width:45px;
+            height: 45px;
+            position: absolute;
+            margin-top: 2530px;
+            margin-left: 190px;
+        }
+        #addrss{
+            position: absolute;
+            margin-top: 2545px;
+            margin-left: 250px;
+        }
+        #fb{
+            width:25px;
+            height: 25px;
+            position: absolute;
+            margin-top: 2535px;
+            margin-left: 1000px;
+
+        }
+        #whtsap{
+            width:25px;
+            height: 25px;
+            position: absolute;
+            margin-top: 2535px;
+            margin-left: 1050px;
+        }
+        #insta{
+            width:25px;
+            height: 25px;
+            position: absolute;
+            margin-top: 2535px;
+            margin-left: 1100px;
+        }
+        #twiter{
+            width:25px;
+            height: 25px;
+            position: absolute;
+            margin-top: 2535px;
+            margin-left: 1150px;
+        
+        }
+        #linkdin{
+            width:25px;
+            height: 25px;
+            position: absolute;
+            margin-top: 2535px;
+            margin-left: 1200px;
+            
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+      
+         <div class="navBar">
+            <h1 id="name"> E-Learning Management System</h1>
+            <img src="new pic 1.png" class="logoImg">
+         <label id="hom"> Home</label>
+         <label id="abt"> About</label>
+         <label id="cors"> Courses</label>
+         <label id="cont"> Contact Us</label>
+         <label id="logn"> Events </label>
+         <label id="sgn"> Teachers</label>
+         <a href="file:///D:/Web%20Engineering/html%20css/signupform.html" target="_blank">
+         <button id="b1">Login / Register</button>
+         </a>
+        </div>
+         <div>
+            <img src="langingPage.jpg" class="landng">
+            <h1 id="descrip"> Start Learning and Embrace<br/> New Skills For Better Future </h1>
+            <label id="des">With the help of E-Learning create your own path and drive on your <br>skills on your own to achieve what you seek </label>
+             <a href="https://www.udemy.com/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Branded-Topic_la.EN_cc.ROW&utm_content=deal4584&utm_term=_._ag_77185073485_._ad_560527368955_._kw_education%20udemy_._de_c_._dm__._pl__._ti_kwd-1273050964953_._li_1011089_._pd__._&matchtype=b&gad_source=1&gclid=CjwKCAiApaarBhB7EiwAYiMwqmwT-lXkrEsXalEfPT12Ku78KoTPpcXP8Y-Owl-2Z9UyJYRnd9tKkhoCDTkQAvD_BwE">
+            <button id="b2">View All Courses</button>
+            <img src="new-removebg-preview.png" class="stationary">
+                </a>
+        </div>
+        
+        <div class="about">
+            <img src="abt.jpeg" class="bgAbt">
+            <h1>About SIBAU E-LEARNING </h1>
+            <p  id="labl">Welcome to our innovative e-learning platform, where knowledge <br> meets convenience. 
+                Empowering learners with dynamic courses, <br>interactive content, and personalized experiences, 
+                we're dedicated <br>to fostering a digital space that inspires growth and unlocks the <br>potential of every student. <br><br>
+                "Embark on a seamless learning journey with our e-learning platform, <br>
+                designed to cater to diverse interests and skill levels. Our curated content,<br> 
+                cutting-edge technology, and a supportive community create an immersive <br>educational 
+                ecosystem. Whether you're a professional aiming to upskill or <br>a lifelong learner exploring   
+                new horizons, we are your partner in continuous <br>growth. Embrace the future of education with 
+                 us, where possibilities are <br> limitless, and knowledge knows no boundaries." 
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Sukkur_IBA_University">
+            <button>
+                Learn more !
+            </button></a>
+        </div>
+        <div class="corse">
+            <img src="corse22.jpg" alt="tap to see image">
+            <div id="c1">
+                <img src="webc1.jpeg" alt="Relod image" >
+                <img src="stars.png" alt="relode it" >
+                <img src="heart.png" alt="relode it" >
+                <img src="pin.png" alt="">
+                <a href="https://www.udemy.com/course/the-web-developer-bootcamp/" id="">Web-Development : 10 best Web-Development courses for better carrer</a>
+                <img src="cap.png" alt="relode">
+                <label >Sukkur IBA University</label>
+                <label >Vacation points 214</label>
+                <img src="Cash-256.png" alt="">
+                <label >$380</label>
+            </div>
+             <div id="c2">
+                <img src="hackingc2.jpg" alt="Relod image" >
+                <img src="stars.png" alt="relode it" >
+                <img src="heart.png" alt="relode it" >
+                <img src="pin.png" alt="">
+                <a href="https://www.udemy.com/course/learn-ethical-hacking-from-scratch/?gad_source=1&gclid=CjwKCAiApaarBhB7EiwAYiMwqn0l3eBzHh0F6OLVuAqO0aHhqf4lvtQiVOOaapTnPwRnT5As7qqezRoCtuYQAvD_BwE&matchtype=b&utm_campaign=Branded-Topic_la.EN_cc.ROW&utm_content=deal4584&utm_medium=udemyads&utm_source=adwords&utm_term=_._ag_78904321636_._ad_636445466862_._kw_ethical+hacking+udemy_._de_c_._dm__._pl__._ti_kwd-680033749628_._li_1011089_._pd__._">Ethical Hacking : Complete Ethical Hacking Course || Networks and Accounts Security</a>
+                <img src="cap.png" alt="relode">
+                <label >LUMS University Lahore</label>
+                <label >Vacation points 114</label>
+                <img src="Cash-256.png" alt="">
+                <label >$250</label>
+
+            </div>
+             <div id="c3">
+                <img src="AI2.jpg" alt="Relod image" >
+                <img src="stars.png" alt="relode it" >
+                <img src="heart.png" alt="relode it" >
+                <img src="pin.png" alt="">
+                <a href="https://www.udemy.com/course/introduction-to-artificial-inteligence/">Introduction to Artificial Intelligence : Complete Concepts Of AI in Modern World</a>
+                <img src="cap.png" alt="relode">
+                <label >NED University Karachi</label>
+                <label >Vacation points 210</label>
+                <img src="Cash-256.png" alt="">
+                <label >$250</label>
+
+            </div>
+             <div id="c4">
+                <img src="programming-c4.jpg" alt="Relod image" >
+                <img src="stars.png" alt="relode it" >
+                <img src="heart.png" alt="relode it" >
+                <img src="pin.png" alt="">
+                <a href="https://www.udemy.com/course/java-programming-fundamentals/">Introduction to Programming Fundamentals : Complete Concepts Of Basics Of Programming Language JAVA</a>
+                <img src="cap.png" alt="relode">
+                <label >Fast University Islamabad</label>
+                <label >Vacation points 190</label>
+                <img src="Cash-256.png" alt="">
+                <label >$199</label>
+            </div>
+        </div>
+        <div class="contactUs">
+            <img src="contactUs.jpg" alt="">
+            <h1>Contact Us</h1>
+            <label >Phone <br> <a href="https://wa.me//+923087643922">+92-307-7640-336</label></a>
+            <label >Email <br><a href="https://mail.google.com/mail/u/0/#inbox?compose=new"> mohammedahmedarain.@edu.pk</label></a>
+            <label >Message <br>Write message at <a href="https://wa.me//+923087643922">+92-333-4563-998 </a> get instant reply</label>
+            <div id="cht">
+            <label >Send Message</label>
+            <form>
+                <input type="text" placeholder="Full Name">
+                <input type="text" placeholder="Email" required>
+                <input type="text" placeholder="Phone Number">
+                <input type="text" placeholder="Type your Message" required>
+                <input type="submit" name="Submit">
+            </form>
+            </div>
+            <img src="location.png" alt="" id="location">
+            <label id="addrss"> <a href="https://www.google.com/maps/place/Sindh+Cooperative+Housing+Society,+Sukkur,+Sindh/@27.7227552,68.8234797,16z/data=!3m1!4b1!4m6!3m5!1s0x3935d4bac28aa4f7:0x7b6bf831a24046a5!8m2!3d27.7226172!4d68.8250437!16s%2Fg%2F1tgqgtm3?entry=ttu" target="_blank">
+                Address : 65200 Sindh Co-Operative Society Airport Road Sukkur</a></label>
+            <img src="facebook.png" alt="" id="fb">
+            <img src="whatsapp (1).png" alt="" id="whtsap">
+            <img src="instagram (1).png" alt="" id="insta">
+            <img src="twitter (1).png" alt="" id="twiter">
+            <img src="linkedin.png" alt="" id="linkdin">
+        </div>
+        
+    </div>
+
+</body>
+</html>
